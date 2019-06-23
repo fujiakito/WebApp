@@ -24,8 +24,8 @@ Let use Postman (a chrome extension) to demonstrate requests and responses.
 
 1. Set a POST request to `/Token` with the Content-Type="application/x-www-form-urlencoded" header.
 2. Add key value in body as below:
-    grant_type - password
-    username - registered user email
+    grant_type - password, 
+    username - registered user email, 
     password - registered user password
 3. Send to obtain access_token.
 
