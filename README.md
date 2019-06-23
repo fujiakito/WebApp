@@ -32,6 +32,7 @@ Let use Postman (a chrome extension) to demonstrate requests and responses.
 # Retrieve Products
 
 1. Set a GET request to `api/Products` with Content-Type="application/x-www-form-urlencoded" and Authorization=Bearer [access_token] header.
+2. Send and get the result of products.
 
 # Store Products
 
@@ -57,4 +58,4 @@ Let use Postman (a chrome extension) to demonstrate requests and responses.
   ]
 }
 
-3. Get the result with the new id of products.
+3. Send and get the result with the new id of products.
