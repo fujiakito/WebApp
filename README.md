@@ -1,6 +1,6 @@
 # WebApp
 
-1. Entity Framework
+1. Entity Framework 6
 2. Web API 2
 
 # Requirements
@@ -15,8 +15,9 @@
 2. Open your solution in Visual Studio 2017 or above and build the solution.
 3. Check the connection string in the web.fig file of WebApp project, change it if you need to.
 4. Open the Package Manager Console and Run ad `Update-Database` command to create your database. (ensure that the Package source is selected as nuget.org and Default project is selected as WebApp in the Package Manager Console window, restore missing packages if required)
-5. Run the application. It will show Log in page if it is successful.
-6. Register as a new user.
+5. In Package Manager Console, run the command `Update-Package Microsoft.CodeDom.Providers.DotNetCompilerPlatform -r`.
+6. Run the application. It will show Log in page if it is successful.
+7. Register as a new user.
 
 # Authentication
 
@@ -59,3 +60,12 @@ Let use Postman (a chrome extension) to demonstrate requests and responses.
 }
 
 3. Send and get the result with the new id of products.
+
+# Unit Test
+
+1. In Package Manager Console, run the command `Install-Package MSTest.TestAdapter -Version 1.4.0`.
+2. Run All Tests in Test Explorer.
+
+# Reference
+
+[ASP.NET Documentation] (https://docs.microsoft.com/en-us/aspnet/)
